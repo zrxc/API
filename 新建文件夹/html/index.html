@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/index.css">
+	</head>
+	<body>
+		
+		<div class="nav">
+			<ul id="nav-ul"></ul>
+		</div>
+		<div class="search">
+			<input type="text" id="search-text" placeholder="请输入要搜索的商品名称">
+			<button id="search-btn">搜索</button>
+		</div>
+		<div class="goods">
+			<ul id="goods-ul"></ul>
+		</div>
+		<script type="text/mingliang" id='nav-li-template'>
+			<li class="itme{className}">
+			<a href="list.html?cat_id={cat_id}" titile="{cat_name}">{cat_name}</a></li>
+		</script>
+		
+		<script type="text/javascript" src="../js/API.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/index.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/common.js" charset="utf-8"></script>
+	</body>
+</html>
